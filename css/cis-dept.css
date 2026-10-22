@@ -40,7 +40,11 @@ a[href] {
         color: red;
     }
 
-    to {
+    50% {
         color: yellow;
+    }
+
+    to {
+        color: red;
     }
 }
