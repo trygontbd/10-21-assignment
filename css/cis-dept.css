@@ -1,0 +1,46 @@
+* {
+    background-color: lightblue;
+}
+
+main p {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+ol~p {
+    color: green;
+}
+
+ol>li {
+    color: hotpink;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+h1, footer {
+    color: darkblue;
+    margin-left: 1em;
+}
+
+a[href] {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-weight: 999;
+    text-decoration: none;
+}
+
+.programmer {
+    color: purple;
+    font-variant: small-caps;
+}
+
+@keyframes myAnimation {
+    from {
+        color: red;
+    }
+
+    to {
+        color: yellow;
+    }
+}
